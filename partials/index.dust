@@ -9,7 +9,7 @@
         <div class="main-content__hero">
             <h1 class="hero__heading">{post_title}</h1>
             <div class="hero__content">
-                {@content/}
+                {@content /}
             </div>
         </div>
         {/Page}
