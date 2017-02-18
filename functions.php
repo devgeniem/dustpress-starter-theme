@@ -3,10 +3,15 @@
  * Theme functions.
  */
 
-namespace DustPressDemo;
+namespace DustPressStarter;
 
 // Enable DustPress.
-\DustPress();
+if ( function_exists( 'dustpress' ) ) {
+    \DustPress();
+}
+else {
+    wp_die('DustPress must be installed when using the DustPress Starter Theme!');
+}
 
 // Define some constants.
 if ( ! defined( 'ASSETS_DIR' ) ) {

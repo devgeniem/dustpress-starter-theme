@@ -1,4 +1,4 @@
-window.DustPressDemoTheme = (function(window, document, $) {
+window.DustPressStarter = (function(window, document, $) {
 
     var app = {
         currentPage: 1

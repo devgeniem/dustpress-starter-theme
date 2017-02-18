@@ -17,7 +17,7 @@ class MiddleModel extends \DustPress\Model {
     }
 
     /**
-     * A wrapper function for quering posts from all categories.
+     * A wrapper function for querying posts from all categories.
      *
      * @param int $page     The page we are on.
      * @param int $per_page How many posts to query.
