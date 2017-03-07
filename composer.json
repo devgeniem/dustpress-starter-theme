@@ -20,5 +20,10 @@
     "wordpress", "dustjs", "dustpress", "theme"
   ],
   "license": "GPL-3.0",
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4",
+    "devgeniem/dustpress": "^1.5.14",
+    "composer/installers": "^1.0.12"
+  }
 }
