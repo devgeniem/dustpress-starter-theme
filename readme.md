@@ -13,3 +13,9 @@ Then just activate the theme from the WordPress admin panel, and you are good to
 ## How to continue?
 
 Further instructions on how to develop with DustPress can be found at the [readme file](https://github.com/devgeniem/dustpress/blob/master/README.md) of the main project.
+
+## Contributors
+
+- [devgeniem](https://github.com/devgeniem)
+- [Nomafin](https://github.com/Nomafin)
+- [villesiltala](https://github.com/villesiltala)
