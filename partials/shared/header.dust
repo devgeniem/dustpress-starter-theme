@@ -10,7 +10,7 @@
     {@wphead /}
 </head>
 
-<body class="{#WP.body_class}{@sep start=1} {/sep}{.}{/WP.body_class}">
+<body class="{#WP.body_class}{.}{@sep} {/sep}{/WP.body_class}">
 
 <div class="top-bar">
     <div class="top-bar-left">
