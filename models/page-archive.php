@@ -11,6 +11,15 @@
 class PageArchive extends MiddleModel {
 
     /**
+     * Enable DustPress.js usage
+     *
+     * @var array
+     */
+    protected $api = [
+        'Query'
+    ];
+    
+    /**
      * Query posts for the archive page.
      * This function also handles pagination.
      *
