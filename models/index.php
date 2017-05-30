@@ -23,7 +23,12 @@ class Index extends MiddleModel {
         return $this->get_all_posts();
     }
 
+    /**
+     * Return a date-based archives list.
+     *
+     * @return string
+     */
     public function Archives() {
-        return wp_get_archives();
+        return wp_get_archives( [ 'echo' => 0 ] );
     }
 }
